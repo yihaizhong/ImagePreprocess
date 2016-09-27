@@ -1,0 +1,12 @@
+#ifndef IMAGEPREPROCESS_GLOBAL_H
+#define IMAGEPREPROCESS_GLOBAL_H
+
+#include <QtCore/qglobal.h>
+
+#ifdef IMAGEPREPROCESS_LIB
+# define DLL_EXPORT Q_DECL_EXPORT
+#else
+# define DLLS_EXPORT Q_DECL_IMPORT
+#endif
+
+#endif // IMAGEPREPROCESS_GLOBAL_H
