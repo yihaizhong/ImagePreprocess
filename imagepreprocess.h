@@ -2,23 +2,24 @@
 #define IMAGEPREPROCESS_H
 
 #include "imagepreprocess_global.h"
-template<class T>
-class QVector;
+#include <QVector>
 class QString;
 namespace qm{
-class ImageInfo;
+class ImageInfoReader;
 class PosDataset;
+
 class DLL_EXPORT ImagePreprocess
 {
 public:
 	ImagePreprocess();
 	~ImagePreprocess();
-	virtual void setImageHorizontal(QVector<QString> &image_files) = 0;
-	virtual void writeImageInfo(QVector<ImageInfo> &image_info_vec) = 0;
-	virtual void writeImagePair(PosDataset &pos_data_set) = 0;
-	virtual void enhanceImage(QVector<QString> &image_files) = 0;
+	void set_image_files(QVector<QString> &image_files);
+	virtual void setImageHorizontal();
+	virtual void writeImageInfo(ImageInfoReader *reader);
+	virtual void writeImagePair(PosDataset &pos_data_set);
+	virtual void enhanceImage();
 private:
-
+	QVector<QString> image_files_;
 };
 }
 #endif // IMAGEPREPROCESS_H

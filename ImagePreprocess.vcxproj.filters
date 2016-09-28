@@ -28,12 +28,36 @@
     <ClCompile Include="imagepreprocess.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="posdataset.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="posdata.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="posreader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ImageInfoReader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="imagepreprocess.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="imagepreprocess_global.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="posdataset.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="posdata.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="posreader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ImageInfoReader.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
