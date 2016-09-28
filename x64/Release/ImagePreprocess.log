@@ -1,0 +1,21 @@
+﻿生成启动时间为 2016/9/29 0:42:59。
+     1>项目“E:\myc++\myqt\OneImage\ImagePreprocess\ImagePreprocess.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /I.\GeneratedFiles /I. /ID:\Qt\Qt5.5.1\5.5\msvc2013_64\include /I.\GeneratedFiles\Release /ID:\Qt\Qt5.5.1\5.5\msvc2013_64\include\QtCore /ID:\Qt\Qt5.5.1\5.5\msvc2013_64\include\QtXml /I..\thirdparty\include /nologo /W1 /WX- /O2 /D UNICODE /D WIN32 /D WIN64 /D QT_DLL /D QT_NO_DEBUG /D NDEBUG /D QT_CORE_LIB /D QT_XML_LIB /D IMAGEPREPROCESS_LIB /D _WINDLL /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Release\\" /Fd"x64\Release\vc120.pdb" /Gd /TP /errorReport:prompt ImageInfoReader.cpp imagepreprocess.cpp posdataset.cpp
+         ImageInfoReader.cpp
+         imagepreprocess.cpp
+         posdataset.cpp
+         正在生成代码...
+       Link:
+         D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"E:\myc++\myqt\OneImage\x64\Release\\ImagePreprocess.dll" /NOLOGO /LIBPATH:D:\Qt\Qt5.5.1\5.5\msvc2013_64\lib /LIBPATH:..\thirdparty\lib qtmain.lib Qt5Core.lib Qt5Xml.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib exiv2.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:"E:\myc++\myqt\OneImage\x64\Release\ImagePreprocess.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\myc++\myqt\OneImage\x64\Release\ImagePreprocess.lib" /MACHINE:X64 /DLL x64\Release\ImageInfoReader.obj
+         x64\Release\imagepreprocess.obj
+         x64\Release\posdata.obj
+         x64\Release\posdataset.obj
+         x64\Release\posreader.obj
+            正在创建库 E:\myc++\myqt\OneImage\x64\Release\ImagePreprocess.lib 和对象 E:\myc++\myqt\OneImage\x64\Release\ImagePreprocess.exp
+         ImagePreprocess.vcxproj -> E:\myc++\myqt\OneImage\x64\Release\ImagePreprocess.dll
+     1>已完成生成项目“E:\myc++\myqt\OneImage\ImagePreprocess\ImagePreprocess.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:02.42
